@@ -12,5 +12,3 @@ open('cines/2022-abril/cines-15-04-2022.csv', 'wb').write(cines.content)
 bibliotecas = requests.get("https://datos.cultura.gob.ar/dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv", allow_redirects = True)
 os.makedirs('bibliotecas/2022-abril')
 open('bibliotecas/2022-abril/bibliotecas-15-04-2022.csv', 'wb').write(bibliotecas.content)
-
-""" from urllib import request """
