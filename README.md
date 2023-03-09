@@ -1,4 +1,4 @@
-# Alkemy_Challenge-Data_Analytics
+# Extracción, transformación y carga de datos para instituciones culturales de la Republica Argentina
 
 Para deployar el proyecto en un entorno virtual ejecutar las siguientes instrucciones en la consola del comandos:
 
